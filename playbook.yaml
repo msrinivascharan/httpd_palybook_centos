@@ -1,5 +1,7 @@
 ---
 - hosts: localhost
+  remote_user: admin
+  become: yes
   vars:
     project_root: /var/www/html
   tasks:
