@@ -1,4 +1,5 @@
-- hosts: webservers
+---
+- hosts: localhost
   vars:
     project_root: /var/www/html
   tasks:
